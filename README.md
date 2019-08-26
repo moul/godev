@@ -1,6 +1,6 @@
 # godev
 
-:smile: godev
+:smile: a collection of debugging functions I often use during development
 
 [![CircleCI](https://circleci.com/gh/moul/godev.svg?style=shield)](https://circleci.com/gh/moul/godev)
 [![GoDoc](https://godoc.org/moul.io/godev?status.svg)](https://godoc.org/moul.io/godev)
@@ -16,9 +16,9 @@
 
 ## Usage
 
-```console
-$ godev -h
-...
+```golang
+fmt.Println(godev.JSON(something))
+fmt.Println(godev.PrettyJSON(something))
 ```
 
 ## Install
