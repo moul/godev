@@ -1,23 +1,23 @@
-# golang-repo-template
+# godev
 
-:smile: golang-repo-template
+:smile: godev
 
-[![CircleCI](https://circleci.com/gh/moul/golang-repo-template.svg?style=shield)](https://circleci.com/gh/moul/golang-repo-template)
-[![GoDoc](https://godoc.org/moul.io/golang-repo-template?status.svg)](https://godoc.org/moul.io/golang-repo-template)
-[![License](https://img.shields.io/github/license/moul/golang-repo-template.svg)](https://github.com/moul/golang-repo-template/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/moul/golang-repo-template.svg)](https://github.com/moul/golang-repo-template/releases)
-[![Go Report Card](https://goreportcard.com/badge/moul.io/golang-repo-template)](https://goreportcard.com/report/moul.io/golang-repo-template)
-[![CodeFactor](https://www.codefactor.io/repository/github/moul/golang-repo-template/badge)](https://www.codefactor.io/repository/github/moul/golang-repo-template)
-[![codecov](https://codecov.io/gh/moul/golang-repo-template/branch/master/graph/badge.svg)](https://codecov.io/gh/moul/golang-repo-template)
-[![Docker Metrics](https://images.microbadger.com/badges/image/moul/golang-repo-template.svg)](https://microbadger.com/images/moul/golang-repo-template)
-[![Sourcegraph](https://sourcegraph.com/github.com/moul/golang-repo-template/-/badge.svg)](https://sourcegraph.com/github.com/moul/golang-repo-template?badge)
+[![CircleCI](https://circleci.com/gh/moul/godev.svg?style=shield)](https://circleci.com/gh/moul/godev)
+[![GoDoc](https://godoc.org/moul.io/godev?status.svg)](https://godoc.org/moul.io/godev)
+[![License](https://img.shields.io/github/license/moul/godev.svg)](https://github.com/moul/godev/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/moul/godev.svg)](https://github.com/moul/godev/releases)
+[![Go Report Card](https://goreportcard.com/badge/moul.io/godev)](https://goreportcard.com/report/moul.io/godev)
+[![CodeFactor](https://www.codefactor.io/repository/github/moul/godev/badge)](https://www.codefactor.io/repository/github/moul/godev)
+[![codecov](https://codecov.io/gh/moul/godev/branch/master/graph/badge.svg)](https://codecov.io/gh/moul/godev)
+[![Docker Metrics](https://images.microbadger.com/badges/image/moul/godev.svg)](https://microbadger.com/images/moul/godev)
+[![Sourcegraph](https://sourcegraph.com/github.com/moul/godev/-/badge.svg)](https://sourcegraph.com/github.com/moul/godev?badge)
 [![Made by Manfred Touron](https://img.shields.io/badge/made%20by-Manfred%20Touron-blue.svg?style=flat)](https://manfred.life/)
 
 
 ## Usage
 
 ```console
-$ golang-repo-template -h
+$ godev -h
 ...
 ```
 
@@ -26,20 +26,20 @@ $ golang-repo-template -h
 ### Using go
 
 ```console
-$ go get -u moul.io/golang-repo-template
+$ go get -u moul.io/godev
 ```
 
 ### Using brew
 
 ```console
-$ brew install moul/moul/golang-repo-template
+$ brew install moul/moul/godev
 ```
 
 ### Download releases
 
-https://github.com/moul/golang-repo-template/releases
+https://github.com/moul/godev/releases
 
 ## License
 
 © 2019 [Manfred Touron](https://manfred.life) -
-[Apache-2.0 License](https://github.com/moul/golang-repo-template/blob/master/LICENSE)
+[Apache-2.0 License](https://github.com/moul/godev/blob/master/LICENSE)
