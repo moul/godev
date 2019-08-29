@@ -10,7 +10,7 @@ executors:
 
 orbs:
   codecov: codecov/codecov@1.0.5
-  moul: moul/build@1.5.0
+  moul: moul/build@1.10.0
   retry: moul/retry@0.6.0
   tools: gotest/tools@0.0.10
 
