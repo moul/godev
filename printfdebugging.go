@@ -22,7 +22,9 @@ func SetDebugOutput(writer io.Writer) {
 }
 
 func Debug() {
-	Debugf("")
+	_, file, line, _ := runtime.Caller(1)
+	file = strings.TrimPrefix(file, basepath+"/") // FIXME: try to keep the whole package
+	fmt.Fprintf(logWriter, "[godev:debug] %s:%d\n", file, line)
 }
 
 func Debugf(format string, args ...interface{}) {
