@@ -1,40 +1,42 @@
-package godev
+package godev_test
 
 import (
 	"fmt"
 	"os"
+
+	"moul.io/godev"
 )
 
 func ExampleDebug() {
-	SetDebugOutput(os.Stdout)
-	Debug()
-	Debug()
+	godev.SetDebugOutput(os.Stdout)
+	godev.Debug()
+	godev.Debug()
 	// Output:
-	// [godev:debug] printfdebugging_test.go:10
-	// [godev:debug] printfdebugging_test.go:11
+	// [godev:debug] printfdebugging_test.go:12
+	// [godev:debug] printfdebugging_test.go:13
 }
 
 func ExampleDebugf() {
-	SetDebugOutput(os.Stdout)
-	Debugf("hello: %d", 42)
-	Debugf("world")
+	godev.SetDebugOutput(os.Stdout)
+	godev.Debugf("hello: %d", 42)
+	godev.Debugf("world")
 	// Output:
-	// [godev:debug] printfdebugging_test.go:19 hello: 42
-	// [godev:debug] printfdebugging_test.go:20 world
+	// [godev:debug] printfdebugging_test.go:21 hello: 42
+	// [godev:debug] printfdebugging_test.go:22 world
 }
 
 func ExampleSdebug() {
-	fmt.Println(Sdebug())
-	fmt.Println(Sdebug())
+	fmt.Println(godev.Sdebug())
+	fmt.Println(godev.Sdebug())
 	// Output:
-	// [godev:debug] printfdebugging_test.go:27
-	// [godev:debug] printfdebugging_test.go:28
+	// [godev:debug] printfdebugging_test.go:29
+	// [godev:debug] printfdebugging_test.go:30
 }
 
 func ExampleSdebugf() {
-	fmt.Println(Sdebugf("hello: %d", 42))
-	fmt.Println(Sdebugf("world"))
+	fmt.Println(godev.Sdebugf("hello: %d", 42))
+	fmt.Println(godev.Sdebugf("world"))
 	// Output:
-	// [godev:debug] printfdebugging_test.go:35 hello: 42
-	// [godev:debug] printfdebugging_test.go:36 world
+	// [godev:debug] printfdebugging_test.go:37 hello: 42
+	// [godev:debug] printfdebugging_test.go:38 world
 }
