@@ -1,11 +1,15 @@
-package godev
+package godev_test
 
-import "fmt"
+import (
+	"fmt"
+
+	"moul.io/godev"
+)
 
 func ExampleYAML() {
-	fmt.Println(YAML([]string{"hello", "world"}))
-	fmt.Println(YAML(42))
-	fmt.Println(YAML(nil))
+	fmt.Println(godev.YAML([]string{"hello", "world"}))
+	fmt.Println(godev.YAML(42))
+	fmt.Println(godev.YAML(nil))
 	// Output:
 	// - hello
 	// - world
